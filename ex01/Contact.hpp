@@ -22,8 +22,6 @@ class Contact
 {
 	public:
 
-	int i;
-
 	Contact(void);
 	~Contact(void);
 
@@ -45,6 +43,7 @@ class Contact
 	int checkinfo(std::string input);
 
 	private:
+	size_t i;
 	std::string _first_name;
 	std::string _lastname;
 	std::string _nickname;
